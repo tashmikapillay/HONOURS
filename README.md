@@ -14,6 +14,7 @@ A lightweight hybrid model (MobileNetV3-Small backbone and a four layer Transfor
 | `figures/` | The figures used in the report, plus other plots produced by the notebook. |
 | `app/` | The Streamlit application (`app.py`), its requirements and the trained model (`hybrid_v2_best.pth`). |
 | `sample_images/` | A few dermoscopic images for trying the application. |
+| `dataset/` | Download links for HAM10000 and its metadata file, which defines the lesion split. The images are not stored here (5.2 GB). |
 | `earlier_versions/` | Earlier notebooks and figures from before the final run, kept for reference. |
 
 ## Main results
