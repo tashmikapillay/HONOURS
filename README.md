@@ -3,7 +3,7 @@
 BSc Honours project in Computer Science, University of KwaZulu-Natal.
 Student: Tashmika Pillay. Supervisor: Prof Serestina Viriri.
 
-A lightweight hybrid model (MobileNetV3-Small backbone and a four layer Transformer encoder) for seven class skin lesion classification on HAM10000, with Grad-CAM, attention and SHAP explanations, a quantitative faithfulness test, and a Streamlit demonstration application.
+A lightweight hybrid model (MobileNetV3-Small backbone and a four layer Transformer encoder) for seven class skin lesion classification on HAM10000, with Grad-CAM, attention and SHAP explanations, a quantitative faithfulness test, and a Streamlit demonstration application ([live demo](https://skinapp-3q2qxhmcjkqzxh8yvpfmpw.streamlit.app/)).
 
 ## Contents
 
@@ -93,7 +93,13 @@ Full details, figures and discussion are in the notebook and the report.
 
 Open the notebook in Google Colab with a GPU runtime. It expects the HAM10000 archive (`archive.zip`, available from Kaggle) in Google Drive and runs from top to bottom.
 
-## Running the application
+## Try the application
+
+Live demo: https://skinapp-3q2qxhmcjkqzxh8yvpfmpw.streamlit.app/
+
+Upload a dermoscopic image (the files in `sample_images/` work) to see the predicted class, the probability of each class and a Grad-CAM overlay.
+
+## Running the application locally
 
 ```
 cd app
